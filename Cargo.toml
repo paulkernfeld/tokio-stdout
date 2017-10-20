@@ -1,0 +1,18 @@
+[package]
+name = "tokio-stdout"
+description = "Write to stdout as a Tokio sink"
+readme = "README.md"
+version = "0.1.0"
+authors = ["Paul Kernfeld <paulkernfeld@gmail.com>"]
+license = "MIT/Apache-2.0"
+documentation = "https://crates.io/crates/tokio-stdout"
+repository = "https://github.com/paulkernfeld/tokio-stdout"
+
+[dependencies]
+bytes    = "0.4"
+futures  = "0.1"
+tokio-io = "0.1"
+
+[dev-dependencies]
+tokio-fmt-encoder = "0.2"
+tokio-timer       = "0.1"
